@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-18T18:48:26 IST" name="Suite" finished-at="2023-11-18T18:51:14 IST" duration-ms="167779">
+    <groups>
+    </groups>
+    <test started-at="2023-11-18T18:48:26 IST" name="Test" finished-at="2023-11-18T18:51:14 IST" duration-ms="167779">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@79e4c792]" started-at="2023-11-18T18:48:26 IST" name="setup" finished-at="2023-11-18T18:48:30 IST" duration-ms="3751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_login()[pri:0, instance:tests.LoginTest@79e4c792]" started-at="2023-11-18T18:48:30 IST" name="tc01_login" finished-at="2023-11-18T18:48:34 IST" duration-ms="3897" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method signature="tc01_incorrectLogin()[pri:0, instance:tests.LoginTest@79e4c792]" started-at="2023-11-18T18:48:34 IST" name="tc01_incorrectLogin" finished-at="2023-11-18T18:48:43 IST" duration-ms="9133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_incorrectLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@79e4c792]" started-at="2023-11-18T18:48:43 IST" name="tearDown" finished-at="2023-11-18T18:48:43 IST" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.ChooseProductsAndResetCartTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:13 IST" name="setup" finished-at="2023-11-18T18:49:15 IST" duration-ms="2046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_login()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:15 IST" name="tc01_login" finished-at="2023-11-18T18:49:19 IST" duration-ms="3818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method signature="tc02_addToCart()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:19 IST" name="tc02_addToCart" finished-at="2023-11-18T18:49:21 IST" duration-ms="2556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_addToCart -->
+        <test-method signature="tc03_addToCart()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:21 IST" name="tc03_addToCart" finished-at="2023-11-18T18:49:24 IST" duration-ms="2490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_addToCart -->
+        <test-method signature="tc04_addToCart()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:24 IST" name="tc04_addToCart" finished-at="2023-11-18T18:49:26 IST" duration-ms="2452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_addToCart -->
+        <test-method signature="tc05_addToCart()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:26 IST" name="tc05_addToCart" finished-at="2023-11-18T18:49:29 IST" duration-ms="2478" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_addToCart -->
+        <test-method signature="tc06_addToCart()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:29 IST" name="tc06_addToCart" finished-at="2023-11-18T18:49:31 IST" duration-ms="2568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_addToCart -->
+        <test-method signature="tc07_addToCart()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:31 IST" name="tc07_addToCart" finished-at="2023-11-18T18:49:34 IST" duration-ms="2562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_addToCart -->
+        <test-method signature="tc08_clickResetAppState()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:34 IST" name="tc08_clickResetAppState" finished-at="2023-11-18T18:49:39 IST" duration-ms="4885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_clickResetAppState -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ChooseProductsAndResetCartTest@8519cb4]" started-at="2023-11-18T18:49:39 IST" name="tearDown" finished-at="2023-11-18T18:49:39 IST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ChooseProductsAndResetCartTest -->
+      <class name="tests.SortTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SortTest@d737b89]" started-at="2023-11-18T18:48:43 IST" name="setup" finished-at="2023-11-18T18:48:45 IST" duration-ms="2081" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_login()[pri:0, instance:tests.SortTest@d737b89]" started-at="2023-11-18T18:48:45 IST" name="tc01_login" finished-at="2023-11-18T18:48:49 IST" duration-ms="3854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method signature="tc02_sortLowToHigh()[pri:0, instance:tests.SortTest@d737b89]" started-at="2023-11-18T18:48:49 IST" name="tc02_sortLowToHigh" finished-at="2023-11-18T18:48:55 IST" duration-ms="5877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_sortLowToHigh -->
+        <test-method signature="tc03_sortZtoA()[pri:0, instance:tests.SortTest@d737b89]" started-at="2023-11-18T18:48:55 IST" name="tc03_sortZtoA" finished-at="2023-11-18T18:49:01 IST" duration-ms="5895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_sortZtoA -->
+        <test-method signature="tc04_sortHighToLow()[pri:0, instance:tests.SortTest@d737b89]" started-at="2023-11-18T18:49:01 IST" name="tc04_sortHighToLow" finished-at="2023-11-18T18:49:07 IST" duration-ms="5883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_sortHighToLow -->
+        <test-method signature="tc05_sortAtoZ()[pri:0, instance:tests.SortTest@d737b89]" started-at="2023-11-18T18:49:07 IST" name="tc05_sortAtoZ" finished-at="2023-11-18T18:49:13 IST" duration-ms="5879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_sortAtoZ -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SortTest@d737b89]" started-at="2023-11-18T18:49:13 IST" name="tearDown" finished-at="2023-11-18T18:49:13 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SortTest -->
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutTest@2d901eb0]" started-at="2023-11-18T18:50:49 IST" name="setup" finished-at="2023-11-18T18:50:51 IST" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_login()[pri:0, instance:tests.CheckoutTest@2d901eb0]" started-at="2023-11-18T18:50:51 IST" name="tc01_login" finished-at="2023-11-18T18:50:55 IST" duration-ms="3784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method signature="tc02_addToCart()[pri:0, instance:tests.CheckoutTest@2d901eb0]" started-at="2023-11-18T18:50:55 IST" name="tc02_addToCart" finished-at="2023-11-18T18:50:57 IST" duration-ms="2540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_addToCart -->
+        <test-method signature="tc03_addToCart()[pri:0, instance:tests.CheckoutTest@2d901eb0]" started-at="2023-11-18T18:50:57 IST" name="tc03_addToCart" finished-at="2023-11-18T18:51:00 IST" duration-ms="2485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_addToCart -->
+        <test-method signature="tc04_addToCart()[pri:0, instance:tests.CheckoutTest@2d901eb0]" started-at="2023-11-18T18:51:00 IST" name="tc04_addToCart" finished-at="2023-11-18T18:51:02 IST" duration-ms="2446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_addToCart -->
+        <test-method signature="tc05_checkout()[pri:0, instance:tests.CheckoutTest@2d901eb0]" started-at="2023-11-18T18:51:02 IST" name="tc05_checkout" finished-at="2023-11-18T18:51:13 IST" duration-ms="11320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_checkout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@2d901eb0]" started-at="2023-11-18T18:51:13 IST" name="tearDown" finished-at="2023-11-18T18:51:14 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+      <class name="tests.ProductsAddAndRemoveTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:49:39 IST" name="setup" finished-at="2023-11-18T18:49:41 IST" duration-ms="2136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="tc01_login()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:49:41 IST" name="tc01_login" finished-at="2023-11-18T18:49:45 IST" duration-ms="3834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_login -->
+        <test-method signature="tc02_addProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:49:45 IST" name="tc02_addProducts" finished-at="2023-11-18T18:49:52 IST" duration-ms="7325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_addProducts -->
+        <test-method signature="tc03_addProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:49:52 IST" name="tc03_addProducts" finished-at="2023-11-18T18:50:00 IST" duration-ms="7345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_addProducts -->
+        <test-method signature="tc04_addProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:00 IST" name="tc04_addProducts" finished-at="2023-11-18T18:50:07 IST" duration-ms="7310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_addProducts -->
+        <test-method signature="tc05_addProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:07 IST" name="tc05_addProducts" finished-at="2023-11-18T18:50:14 IST" duration-ms="7314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_addProducts -->
+        <test-method signature="tc06_addProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:14 IST" name="tc06_addProducts" finished-at="2023-11-18T18:50:22 IST" duration-ms="7312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_addProducts -->
+        <test-method signature="tc07_addProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:22 IST" name="tc07_addProducts" finished-at="2023-11-18T18:50:29 IST" duration-ms="7327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc07_addProducts -->
+        <test-method signature="tc08_removeProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:29 IST" name="tc08_removeProducts" finished-at="2023-11-18T18:50:34 IST" duration-ms="4902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc08_removeProducts -->
+        <test-method signature="tc09_removeProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:34 IST" name="tc09_removeProducts" finished-at="2023-11-18T18:50:36 IST" duration-ms="2458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc09_removeProducts -->
+        <test-method signature="tc10_removeProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:36 IST" name="tc10_removeProducts" finished-at="2023-11-18T18:50:39 IST" duration-ms="2466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_removeProducts -->
+        <test-method signature="tc11_removeProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:39 IST" name="tc11_removeProducts" finished-at="2023-11-18T18:50:41 IST" duration-ms="2480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc11_removeProducts -->
+        <test-method signature="tc12_removeProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:41 IST" name="tc12_removeProducts" finished-at="2023-11-18T18:50:44 IST" duration-ms="2484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc12_removeProducts -->
+        <test-method signature="tc13_removeProducts()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:44 IST" name="tc13_removeProducts" finished-at="2023-11-18T18:50:49 IST" duration-ms="4883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc13_removeProducts -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.ProductsAddAndRemoveTest@35dab4eb]" started-at="2023-11-18T18:50:49 IST" name="tearDown" finished-at="2023-11-18T18:50:49 IST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ProductsAddAndRemoveTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
