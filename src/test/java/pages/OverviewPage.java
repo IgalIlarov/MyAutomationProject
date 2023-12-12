@@ -15,6 +15,6 @@ public class OverviewPage extends BasePage{
 	
 	public void clickFinish() {
 		scrollPage();
-		click(finishBtn, "yellow");
+		click(finishBtn);
 	}
 }

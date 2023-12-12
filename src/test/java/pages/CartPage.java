@@ -25,17 +25,17 @@ public class CartPage extends BasePage{
 		List<WebElement> list = driver.findElements(By.cssSelector(".inventory_item_name"));
 		for (WebElement el : list) {
 			if (el.getText().equalsIgnoreCase(productName)) {
-				click(removeBtn, "yellow");
+				click(removeBtn);
 				break;
 			}
 		}
 	}
 	
 	public void clickContinueShoppingBtn() {
-		click(continueShoppingBtn, "yellow");
+		click(continueShoppingBtn);
 	}
 	
 	public void clickCheckout() {
-		click(checkoutBtn, "yellow");
+		click(checkoutBtn);
 	}
 }

@@ -27,30 +27,30 @@ public class ProductsPage extends BasePage{
 	WebElement titleLabel;
 
 	public void sortAtoZ() {
-		click(sortBtn, "yellow");
+		click(sortBtn);
 		waiting(500);
-		click(azBtn, "yellow");
+		click(azBtn);
 		waiting(500);
 	}
 
 	public void sortZtoa() {
-		click(sortBtn, "yellow");
-		waiting(500);;
-		click(zaBtn, "yellow");
+		click(sortBtn);
+		waiting(500);
+		click(zaBtn);
 		waiting(500);
 	}
 
 	public void sortLowToHigh() {
-		click(sortBtn, "yellow");
+		click(sortBtn);
 		waiting(500);
-		click(loHiBtn, "yellow");
+		click(loHiBtn);
 		waiting(500);
 	}
 
 	public void sortHighToLow() {
-		click(sortBtn, "yellow");
+		click(sortBtn);
 		waiting(500);
-		click(hoLoBtn, "yellow");
+		click(hoLoBtn);
 		waiting(500);
 	}
 
@@ -59,7 +59,7 @@ public class ProductsPage extends BasePage{
 		List<WebElement> list = driver.findElements(By.cssSelector(".inventory_item_name"));
 		for (WebElement el : list) {
 			if (el.getText().equalsIgnoreCase(productName)) {
-				click(el, "yellow");
+				click(el);
 				break;
 			}
 		}
@@ -72,7 +72,7 @@ public class ProductsPage extends BasePage{
 			WebElement titleElement = areaElement.findElement(By.cssSelector(".inventory_item_name"));
 			if (titleElement.getText().equalsIgnoreCase(productName)) {
 				WebElement el = areaElement.findElement(By.cssSelector("[id^='add-to-cart']"));
-				click(el, "yellow");
+				click(el);
 				break;
 			}
 		}

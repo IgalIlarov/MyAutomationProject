@@ -20,12 +20,12 @@ public class YourInformationPage extends BasePage{
 	WebElement continueBtn;
 	
 	public void fillInformationFields(String firstName, String lastName, String zipCode) {
-		fillText(firstNameField, firstName, "yellow");
-		fillText(lastNameField, lastName, "yellow");
-		fillText(zipCodeField, zipCode, "yellow");
+		fillText(firstNameField, firstName);
+		fillText(lastNameField, lastName);
+		fillText(zipCodeField, zipCode);
 	}
 	
 	public void clickContinue() {
-		click(continueBtn, "yellow");
+		click(continueBtn);
 	}
 }

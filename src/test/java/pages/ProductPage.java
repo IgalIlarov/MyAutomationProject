@@ -16,10 +16,10 @@ public class ProductPage extends BasePage{
 	WebElement backToProductsBtn;
 	
 	public void clickAddToCart() {
-		click(addToCartBtn, "yellow");
+		click(addToCartBtn);
 	}
 	
 	public void clickBackToProducts() {
-		click(backToProductsBtn, "yellow");
+		click(backToProductsBtn);
 	}
 }

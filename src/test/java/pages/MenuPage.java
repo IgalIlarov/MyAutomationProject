@@ -22,20 +22,20 @@ public class MenuPage extends BasePage{
 	WebElement resetAppStateBtn;
 
 	public void clickCart() {
-		click(cartBtn, "yellow");
+		click(cartBtn);
 	}
 
 	public void clickMenu() {
-		click(menuBtn, "yellow");
+		click(menuBtn);
 	}
 
 	public void clickLogout() {
-		click(logoutBtn, "yellow");
+		click(logoutBtn);
 		waiting(500);
 	}
 	
 	public void clickResetAppState() {
-		click(resetAppStateBtn, "yellow");
+		click(resetAppStateBtn);
 	}
 
 	//Validation

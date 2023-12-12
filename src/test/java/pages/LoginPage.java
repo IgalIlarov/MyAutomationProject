@@ -23,9 +23,9 @@ public class LoginPage extends BasePage{
 	
 	public void fillLoginForm(String username, String password) {
 		waiting(300);
-		fillText(userNameField, username, "yellow");
-		fillText(passwordField, password, "yellow");
-		click(sighinBtn, "yellow");
+		fillText(userNameField, username);
+		fillText(passwordField, password);
+		click(sighinBtn);
 	}
 	
 	//Validation

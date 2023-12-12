@@ -13,9 +13,9 @@ public abstract class BasePage {
 		PageFactory.initElements(driver, this);
 	}
 
-	public void fillText(WebElement el, String text, String color) {
+	public void fillText(WebElement el, String text) {
 		String originalStyle = el.getAttribute("style");
-		String newStyle = "background-color:yellow; border: 1px solid " + color + ";" + originalStyle;
+		String newStyle = "background-color:yellow; border: 1px solid " + ";" + originalStyle;
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '" + newStyle + "');},0);", el);
 		js.executeScript("var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '"
@@ -24,10 +24,10 @@ public abstract class BasePage {
 		el.sendKeys(text);
 	}
 
-	public void click(WebElement el, String color) {
+	public void click(WebElement el) {
 		try {
 			String originalStyle = el.getAttribute("style");
-			String newStyle = "background-color:yellow; border: 1px solid " + color + ";" + originalStyle;
+			String newStyle = "background-color:yellow; border: 1px solid " + ";" + originalStyle;
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '" + newStyle + "');},0);", el);
 			js.executeScript("var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '"
@@ -56,9 +56,9 @@ public abstract class BasePage {
 		js.executeScript("window.scrollBy(0,250)", "");
 	}
 
-	protected void highlightElement(WebElement element, String color) {
+	protected void highlightElement(WebElement element) {
 		String originalStyle = element.getAttribute("style");
-		String newStyle = "background-color:yellow; border: 1px solid " + color + ";" + originalStyle;
+		String newStyle = "background-color:yellow; border: 1px solid " + ";" + originalStyle;
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '" + newStyle + "');},0);", element);
 		js.executeScript("var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '"
