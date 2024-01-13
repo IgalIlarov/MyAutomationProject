@@ -27,4 +27,4 @@ The project follows the Page Object Model (POM) design pattern for a modular and
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/IgalIlarov/MyAutomationProject
+   git clone bit.ly/3vvYQ7T
